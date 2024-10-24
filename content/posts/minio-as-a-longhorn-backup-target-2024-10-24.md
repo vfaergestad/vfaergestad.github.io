@@ -31,9 +31,9 @@ Minio is a service that provides selfhost-able S3 storage, compatible with the A
 
 ### Access Minio
 
-If you have minio installed, you probably now how to access it, but hey, you may just have installed for this post, so:
+If you have minio installed, you probably know how to access it, but hey, you may just have installed it for this post, so:
 
-You can access minio through either the GUI or the CLI. For the cli, it can be handy to create an alias first: (I use `mcli`, but your command may be `mc`)
+You can access minio through either the GUI or the CLI. For the CLI, it can be handy to create an alias first: (I use `mcli`, but your command may be `mc`)
 
 ```shell
 mcli alias set myminio/ http://MINIO-SERVER MYUSER MYPASSWORD
@@ -119,12 +119,11 @@ defaultSettings:
   backupTargetCredentialSecret: minio-secret # This needs to be the same as the name of the secret
 ```
 
-```
-
-And you should be set! Dont hesitate to reach out if you run into any problems.
+And you should be set! Don't hesitate to reach out if you run into any problems.
 
 ## Sources and related links
-<https://min.io/docs/minio/linux/administration/identity-access-management/minio-user-management.html> 
-<https://longhorn.io/docs/archives/1.3.1/snapshots-and-backups/backup-and-restore/set-backup-target/#enable-virtual-hosted-style-access-for-s3-compatible-backupstore> 
+
+<https://min.io/docs/minio/linux/administration/identity-access-management/minio-user-management.html>
+<https://longhorn.io/docs/archives/1.3.1/snapshots-and-backups/backup-and-restore/set-backup-target/#enable-virtual-hosted-style-access-for-s3-compatible-backupstore>
 <https://longhorn.io/docs/archives/1.3.1/advanced-resources/deploy/customizing-default-settings/#using-helm>
 
