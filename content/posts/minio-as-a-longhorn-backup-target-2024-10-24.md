@@ -124,6 +124,8 @@ And you should be set! Don't hesitate to reach out if you run into any problems.
 ## Sources and related links
 
 <https://min.io/docs/minio/linux/administration/identity-access-management/minio-user-management.html>
+
 <https://longhorn.io/docs/archives/1.3.1/snapshots-and-backups/backup-and-restore/set-backup-target/#enable-virtual-hosted-style-access-for-s3-compatible-backupstore>
+
 <https://longhorn.io/docs/archives/1.3.1/advanced-resources/deploy/customizing-default-settings/#using-helm>
 
